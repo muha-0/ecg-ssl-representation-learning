@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Env
+.env
+.venv
+env/
+venv/
+
+# Data
+/data/
+*.npy
+*.memmap
+
+# Logs / artifacts
+*.log
+artifacts/
+runs/
+
+# OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
