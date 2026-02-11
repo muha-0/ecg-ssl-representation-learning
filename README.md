@@ -233,7 +233,7 @@ python -m eval.convergence \
 * VQ models require a codebook for both training and evaluation.
 * Use `--no_show` when running on remote servers.
 * All splits are **patient-level** and deterministic for reproducibility.
-
+* To use backend npy, you must preprocess first.
 ---
 
 # Citation
