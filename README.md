@@ -3,8 +3,11 @@
 
 Official implementation of the experiments presented in:
 
-**Ahmed Sameh, Ramzi Al-Sharawi, Yogatheesan Varatharajah**
+**Ahmed Sameh, Ramzi Al-Sharawi, Yogatheesan Varatharajah**  
 *The Impact of Temporal Context Length and Encoding Strategies on Self-Supervised ECG Representation Learning*
+
+[arXiv:2608.12695](https://arxiv.org/abs/2608.12695)  
+Accepted at the 48th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC 2026).
 
 This repository provides a unified framework for **self-supervised representation learning on ambulatory ECG** using the Icentia11k dataset. The code reproduces the controlled study comparing:
 
@@ -238,13 +241,29 @@ python -m eval.convergence \
 
 # Citation
 
+If you use this code or the associated models, please cite:
+
 ```bibtex
-@article{sameh2026ecgssl,
+@misc{sameh2026impact,
   title={The Impact of Temporal Context Length and Encoding Strategies on Self-Supervised ECG Representation Learning},
   author={Sameh, Ahmed and Al-Sharawi, Ramzi and Varatharajah, Yogatheesan},
-  year={2026}
+  year={2026},
+  eprint={2608.12695},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2608.12695}
 }
 ```
+
+The citation will be updated to the final IEEE EMBC proceedings citation once the published version is available.
+
+---
+
+# License
+
+The source code in this repository is available under the [MIT License](LICENSE).
+
+The Icentia11k dataset is not distributed with this repository and remains subject to its own terms of use.
 
 ---
 
